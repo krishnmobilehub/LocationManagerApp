@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131A56D31F55AB21004F93F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131A56D21F55AB21004F93F0 /* UIKit.framework */; };
+		131A56D51F55AB26004F93F0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 131A56D41F55AB26004F93F0 /* CoreFoundation.framework */; };
+		137324CD1F501F0500B894C4 /* CMMotionManager+Interceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 137324C91F501F0500B894C4 /* CMMotionManager+Interceptor.h */; };
+		137324CE1F501F0500B894C4 /* CMMotionManager+Interceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 137324CA1F501F0500B894C4 /* CMMotionManager+Interceptor.m */; };
+		137324D11F50309200B894C4 /* UIViewController+Interceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 137324CF1F50309200B894C4 /* UIViewController+Interceptor.h */; };
+		137324D21F50309200B894C4 /* UIViewController+Interceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 137324D01F50309200B894C4 /* UIViewController+Interceptor.m */; };
+		139791A41F4ECED1007B3BC8 /* neoEYED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1397919A1F4ECED1007B3BC8 /* neoEYED.framework */; };
+		139791A91F4ECED1007B3BC8 /* neoEYEDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 139791A81F4ECED1007B3BC8 /* neoEYEDTests.m */; };
+		139791AB1F4ECED1007B3BC8 /* neoEYED.h in Headers */ = {isa = PBXBuildFile; fileRef = 1397919D1F4ECED1007B3BC8 /* neoEYED.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		139791B61F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 139791B41F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.h */; };
+		139791B71F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 139791B51F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.m */; };
+		139791CA1F4EDEEC007B3BC8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139791C91F4EDEEC007B3BC8 /* CoreLocation.framework */; };
+		139791D81F4EED6E007B3BC8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139791D71F4EED6E007B3BC8 /* CoreMotion.framework */; };
+		139791DF1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 139791DD1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.h */; };
+		139791E01F4EEE47007B3BC8 /* CLLocationManager+Interceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 139791DE1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		139791A51F4ECED1007B3BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139791911F4ECED1007B3BC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 139791991F4ECED1007B3BC8;
+			remoteInfo = neoEYED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131A56D21F55AB21004F93F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		131A56D41F55AB26004F93F0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		137324C91F501F0500B894C4 /* CMMotionManager+Interceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Interceptor.h"; sourceTree = "<group>"; };
+		137324CA1F501F0500B894C4 /* CMMotionManager+Interceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Interceptor.m"; sourceTree = "<group>"; };
+		137324CF1F50309200B894C4 /* UIViewController+Interceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Interceptor.h"; sourceTree = "<group>"; };
+		137324D01F50309200B894C4 /* UIViewController+Interceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Interceptor.m"; sourceTree = "<group>"; };
+		1397919A1F4ECED1007B3BC8 /* neoEYED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = neoEYED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1397919D1F4ECED1007B3BC8 /* neoEYED.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = neoEYED.h; sourceTree = "<group>"; };
+		1397919E1F4ECED1007B3BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139791A31F4ECED1007B3BC8 /* neoEYEDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neoEYEDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		139791A81F4ECED1007B3BC8 /* neoEYEDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neoEYEDTests.m; sourceTree = "<group>"; };
+		139791AA1F4ECED1007B3BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139791B41F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TouchInterceptor.h"; sourceTree = "<group>"; };
+		139791B51F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TouchInterceptor.m"; sourceTree = "<group>"; };
+		139791C91F4EDEEC007B3BC8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		139791D71F4EED6E007B3BC8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		139791DD1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Interceptor.h"; sourceTree = "<group>"; };
+		139791DE1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Interceptor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139791961F4ECED1007B3BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131A56D51F55AB26004F93F0 /* CoreFoundation.framework in Frameworks */,
+				131A56D31F55AB21004F93F0 /* UIKit.framework in Frameworks */,
+				139791D81F4EED6E007B3BC8 /* CoreMotion.framework in Frameworks */,
+				139791CA1F4EDEEC007B3BC8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139791A01F4ECED1007B3BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139791A41F4ECED1007B3BC8 /* neoEYED.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139791901F4ECED1007B3BC8 = {
+			isa = PBXGroup;
+			children = (
+				1397919C1F4ECED1007B3BC8 /* neoEYED */,
+				139791A71F4ECED1007B3BC8 /* neoEYEDTests */,
+				1397919B1F4ECED1007B3BC8 /* Products */,
+				139791C81F4EDEEC007B3BC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1397919B1F4ECED1007B3BC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1397919A1F4ECED1007B3BC8 /* neoEYED.framework */,
+				139791A31F4ECED1007B3BC8 /* neoEYEDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1397919C1F4ECED1007B3BC8 /* neoEYED */ = {
+			isa = PBXGroup;
+			children = (
+				1397919D1F4ECED1007B3BC8 /* neoEYED.h */,
+				139791B41F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.h */,
+				139791B51F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.m */,
+				139791DD1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.h */,
+				139791DE1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.m */,
+				137324C91F501F0500B894C4 /* CMMotionManager+Interceptor.h */,
+				137324CA1F501F0500B894C4 /* CMMotionManager+Interceptor.m */,
+				137324CF1F50309200B894C4 /* UIViewController+Interceptor.h */,
+				137324D01F50309200B894C4 /* UIViewController+Interceptor.m */,
+				1397919E1F4ECED1007B3BC8 /* Info.plist */,
+			);
+			path = neoEYED;
+			sourceTree = "<group>";
+		};
+		139791A71F4ECED1007B3BC8 /* neoEYEDTests */ = {
+			isa = PBXGroup;
+			children = (
+				139791A81F4ECED1007B3BC8 /* neoEYEDTests.m */,
+				139791AA1F4ECED1007B3BC8 /* Info.plist */,
+			);
+			path = neoEYEDTests;
+			sourceTree = "<group>";
+		};
+		139791C81F4EDEEC007B3BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				131A56D41F55AB26004F93F0 /* CoreFoundation.framework */,
+				131A56D21F55AB21004F93F0 /* UIKit.framework */,
+				139791D71F4EED6E007B3BC8 /* CoreMotion.framework */,
+				139791C91F4EDEEC007B3BC8 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		139791971F4ECED1007B3BC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139791B61F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.h in Headers */,
+				139791AB1F4ECED1007B3BC8 /* neoEYED.h in Headers */,
+				137324D11F50309200B894C4 /* UIViewController+Interceptor.h in Headers */,
+				139791DF1F4EEE47007B3BC8 /* CLLocationManager+Interceptor.h in Headers */,
+				137324CD1F501F0500B894C4 /* CMMotionManager+Interceptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		139791991F4ECED1007B3BC8 /* neoEYED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139791AE1F4ECED1007B3BC8 /* Build configuration list for PBXNativeTarget "neoEYED" */;
+			buildPhases = (
+				139791951F4ECED1007B3BC8 /* Sources */,
+				139791961F4ECED1007B3BC8 /* Frameworks */,
+				139791971F4ECED1007B3BC8 /* Headers */,
+				139791981F4ECED1007B3BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neoEYED;
+			productName = neoEYED;
+			productReference = 1397919A1F4ECED1007B3BC8 /* neoEYED.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		139791A21F4ECED1007B3BC8 /* neoEYEDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139791B11F4ECED1007B3BC8 /* Build configuration list for PBXNativeTarget "neoEYEDTests" */;
+			buildPhases = (
+				1397919F1F4ECED1007B3BC8 /* Sources */,
+				139791A01F4ECED1007B3BC8 /* Frameworks */,
+				139791A11F4ECED1007B3BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				139791A61F4ECED1007B3BC8 /* PBXTargetDependency */,
+			);
+			name = neoEYEDTests;
+			productName = neoEYEDTests;
+			productReference = 139791A31F4ECED1007B3BC8 /* neoEYEDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139791911F4ECED1007B3BC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = NeoEyed;
+				TargetAttributes = {
+					139791991F4ECED1007B3BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DF54KVHWKT;
+						ProvisioningStyle = Automatic;
+					};
+					139791A21F4ECED1007B3BC8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DF54KVHWKT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 139791941F4ECED1007B3BC8 /* Build configuration list for PBXProject "neoEYED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 139791901F4ECED1007B3BC8;
+			productRefGroup = 1397919B1F4ECED1007B3BC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139791991F4ECED1007B3BC8 /* neoEYED */,
+				139791A21F4ECED1007B3BC8 /* neoEYEDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139791981F4ECED1007B3BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		139791A11F4ECED1007B3BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139791951F4ECED1007B3BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139791E01F4EEE47007B3BC8 /* CLLocationManager+Interceptor.m in Sources */,
+				137324D21F50309200B894C4 /* UIViewController+Interceptor.m in Sources */,
+				139791B71F4ECEF6007B3BC8 /* UIApplication+TouchInterceptor.m in Sources */,
+				137324CE1F501F0500B894C4 /* CMMotionManager+Interceptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1397919F1F4ECED1007B3BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139791A91F4ECED1007B3BC8 /* neoEYEDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		139791A61F4ECED1007B3BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 139791991F4ECED1007B3BC8 /* neoEYED */;
+			targetProxy = 139791A51F4ECED1007B3BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		139791AC1F4ECED1007B3BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		139791AD1F4ECED1007B3BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		139791AF1F4ECED1007B3BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DF54KVHWKT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = neoEYED/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.neoEYED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		139791B01F4ECED1007B3BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DF54KVHWKT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = neoEYED/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.neoEYED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		139791B21F4ECED1007B3BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DF54KVHWKT;
+				INFOPLIST_FILE = neoEYEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.neoEYEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		139791B31F4ECED1007B3BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DF54KVHWKT;
+				INFOPLIST_FILE = neoEYEDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lib.neoEYEDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139791941F4ECED1007B3BC8 /* Build configuration list for PBXProject "neoEYED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139791AC1F4ECED1007B3BC8 /* Debug */,
+				139791AD1F4ECED1007B3BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139791AE1F4ECED1007B3BC8 /* Build configuration list for PBXNativeTarget "neoEYED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139791AF1F4ECED1007B3BC8 /* Debug */,
+				139791B01F4ECED1007B3BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139791B11F4ECED1007B3BC8 /* Build configuration list for PBXNativeTarget "neoEYEDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139791B21F4ECED1007B3BC8 /* Debug */,
+				139791B31F4ECED1007B3BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139791911F4ECED1007B3BC8 /* Project object */;
+}

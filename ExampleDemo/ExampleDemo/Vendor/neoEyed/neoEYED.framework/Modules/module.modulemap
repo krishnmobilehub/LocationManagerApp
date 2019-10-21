@@ -1,0 +1,6 @@
+framework module neoEYED {
+  umbrella header "neoEYED.h"
+
+  export *
+  module * { export * }
+}
