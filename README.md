@@ -1,4 +1,4 @@
-# NeoEyed
+# LocationManagerApp
 
 # Feature
 - Create framework for location manager
